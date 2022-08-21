@@ -45,7 +45,7 @@ int RandomNumbers(int numberElements, int min, int max)
   int sumElements = 0;
   Console.Write("Массив: ");
 
-    for (int i = 0; i <randomNumbers.Length; i+=2)
+    for (int i = 0; i <randomNumbers.Length; i++)
     {
       randomNumbers[i] = new Random().Next(min, max);
 
